@@ -35,6 +35,11 @@ const Header = () => {
                                     isActive ? "text-blue-600 underline" : " hover:underline"}
                             >Users2</ NavLink>
 
+                            < NavLink to= "/posts"  
+                                   className={({ isActive }) =>
+                                    isActive ? "text-blue-600 underline" : " hover:underline"}
+                            >Posts</ NavLink>
+
                              </div>
                              <div className='w-10 h-10  '>
                                 <img  className='rounded-[100%]' src="https://i.ibb.co.com/MkT8G4CM/1745646133822.jpg" alt="" />
