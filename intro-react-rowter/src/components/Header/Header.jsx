@@ -5,7 +5,7 @@ import './Header.css';
 const Header = () => {
     return (
         <div>
-            <h2>This is header</h2>
+           
                         <nav>
                              <div className='flex justify-between m-10 bg-blue-400 p-4 rounded-2xl text-white'>
                                 <div>

@@ -78,6 +78,14 @@ const router = createBrowserRouter([
   {
     path:'app2',
     Component: App
+  },
+  {
+    path : '*',
+    element:  
+    <div className='flex justify-center '>
+      <h2 className='font-bold text-2xl rounded-4xl p-30  text-cyan-500'>Data is Not Found: 404 Status</h2>
+    </div>
+
   }
 ]);
 
