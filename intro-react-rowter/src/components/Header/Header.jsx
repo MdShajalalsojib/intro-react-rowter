@@ -25,10 +25,16 @@ const Header = () => {
                                 isActive ? "text-blue-600 underline" : " hover:underline"}
                             
                             >Laptops</ NavLink>
-                            < NavLink to= "/"  
-                                 
-                            
-                            >Home</ NavLink>
+                            < NavLink to= "/users"  
+                                   className={({ isActive }) =>
+                                    isActive ? "text-blue-600 underline" : " hover:underline"}
+                            >Users</ NavLink>
+
+                          < NavLink to= "/users2"  
+                                   className={({ isActive }) =>
+                                    isActive ? "text-blue-600 underline" : " hover:underline"}
+                            >Users2</ NavLink>
+
                              </div>
                              <div className='w-10 h-10  '>
                                 <img  className='rounded-[100%]' src="https://i.ibb.co.com/MkT8G4CM/1745646133822.jpg" alt="" />
